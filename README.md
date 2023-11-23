@@ -1,6 +1,6 @@
 ---
 Title: README
-Date: March 28, 2023
+Date: September 11, 2023
 Author: dotjesper
 Status: In development
 ---
@@ -54,6 +54,7 @@ The mindset of the solution will aim to allow to limit and/or combine the functi
 ## Current features
 
 - WindowsApps: Remove Windows In-box Apps and Store Apps.
+- WindowsBranding: Configure OEM information and Registration (Coming soon)
 - WindowsFeatures
     - Enable and/or disable Windows features.
     - Enable and/or disable Windows optional features.
@@ -62,13 +63,13 @@ The mindset of the solution will aim to allow to limit and/or combine the functi
 - WindowsRegistry: Modifying Windows registry entries (add, change and remove).
 - WindowsRun: Run local executables and/or download and run executables.
 - WindowsServices: Configure/re-configure Windows Services.
-- WindowsTCR: Windows Time zone, Culture and Regional settings manager (Preview).
+- WindowsTCR: Windows Time zone, Culture and Regional settings manager (PREVIEW).
 
 ## Requirements
 
 **Windows gecko** is developed and tested for Windows 10 21H2 Pro and Enterprise 64-bit and newer and require PowerShell 5.1.
 
-**NOTE** Applying Windows desired state configurationn, **Windows gecko** should be configured to run in either SYSTEM or USER context. Applying device Baseline in SYSTEM context, will be required to run with local administrative rights (Local administrator or System). Combining device Baseline across SYSTEM and USER is highly unadvisable and might cause undesired results.
+**NOTE** Applying Windows desired state configuration, **Windows gecko** should be configured to run in either SYSTEM or USER context. Applying device Baseline in SYSTEM context, will be required to run with local administrative rights (Local administrator or System). Combining device Baseline across SYSTEM and USER is highly unadvisable and might cause undesired results.
 
 ## Repository content
 
