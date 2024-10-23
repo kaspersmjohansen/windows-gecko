@@ -342,6 +342,17 @@
         "enabled": true,
         "items": [
             {
+                "description": "Disable Windows Spotlight Collection",
+                "minOSbuild": "26100",
+                "maxOSbuild": "",
+                "item": "add",
+                "root": "HKDU",
+                "Path": "Software\\Policies\\Microsoft\\Windows\\CloudContent",
+                "Name": "DisableSpotlightCollectionOnDesktop",
+                "Type": "REG_DWORD",
+                "Value": "1"
+            },
+            {
                 "description": "Block Azure AD Workplace join in 3rd-part tenants",
                 "minOSbuild": "",
                 "maxOSbuild": "",
